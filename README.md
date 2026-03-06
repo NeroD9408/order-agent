@@ -106,7 +106,7 @@ POST /order/createOrder
 修改 `scripts/order_api.py` 中的配置：
 
 ```python
-BASE_URL = "http://localhost:9303"  # WMS API 地址
+BASE_URL = "https://aifx.tushu.cloud/prod-api/dispatch"  # WMS API 地址
 TIMEOUT = 120  # 请求超时时间
 ```
 
